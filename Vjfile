@@ -13,7 +13,7 @@ pipeline {
     stage('Create a Package') {
       steps {
          echo 'This will create a package using maven'
-         echo 'test webhook'
+         echo 'this is for webhook test'
          sh 'mvn package'
                              }
             }
